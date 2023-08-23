@@ -4,7 +4,7 @@ export default function healthType(gamer) {
     result = 'critical';
   } else if (gamer.health < 50) {
     result = 'wounded';
-  } else if (gamer.health < 100) {
+  } else {
     result = 'healthy';
   }
   return result;
